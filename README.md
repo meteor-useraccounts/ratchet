@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/splendido/accounts-templates-ratchet.svg?branch=master)](https://travis-ci.org/splendido/accounts-templates-ratchet)
-accounts-templates-ratchet
-==========================
-
 ## WIP!
 This package is still under development and was not yet published!
+
+accounts-templates-ratchet
+==========================
 
 Meteor sign up and sign in templates (and much more!) styled for Ratchet
 
