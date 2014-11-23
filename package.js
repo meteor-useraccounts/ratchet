@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Accounts Templates styled for Ratchet.",
-    version: "1.2.3",
+    version: "1.3.0",
     name: "useraccounts:ratchet",
     git: "https://github.com/meteor-useraccounts/ratchet.git",
 });
@@ -18,7 +18,7 @@ Package.on_use(function(api, where) {
     ], ["client", "server"]);
 
     api.imply([
-        "useraccounts:core@1.2.3",
+        "useraccounts:core@1.3.0",
     ], ["client", "server"]);
 
     api.add_files([
@@ -60,7 +60,7 @@ Package.on_use(function(api, where) {
 Package.on_test(function(api) {
     api.use([
         "useraccounts:ratchet",
-        "useraccounts:core@1.2.3",
+        "useraccounts:core@1.3.0",
     ]);
 
     api.use([
