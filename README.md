@@ -1,28 +1,35 @@
-[![Build Status](https://travis-ci.org/splendido/accounts-templates-ratchet.svg?branch=master)](https://travis-ci.org/splendido/accounts-templates-ratchet)
+[![Build Status](https://travis-ci.org/meteor-useraccounts/ratchet.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/ratchet)
+useraccounts:ratchet
+========================
 
-WIP: Empty project!
-===================
-**This package is still under development and was not yet published!**
+Meteor sign up and sign in templates styled for Ratchet
 
-accounts-templates-ratchet
-==========================
+This package depends on [useraccounts:core](https://atmospherejs.com/useraccounts/core)
 
-Meteor sign up and sign in templates (and much more!) styled for Ratchet
-
-This package depends on [accounts-templates-core](https://atmospherejs.com/package/accounts-templates-core)
-
-Learn more [here](http://accounts-templates.meteor.com) or have a look at a [live demo application](http://accounts-templates-ratchet.meteor.com)  or at the full [documentation](https://github.com/splendido/accounts-templates-core).
+Learn more [here](http://accounts-templates.meteor.com) or have a look at the full [documentation](https://github.com/meteor-useraccounts/core).
 
 
-## Warning!
+**Note:** At the moment Ratchet does not support form validation.
+So it is mandatory to configure UserAccounts with, at least,
 
-Adding this package with `mrt add accounts-templates-ratchet` does not add any other packages providing Ratchet. This is to let you choose the flavour you prefer, being it compiled, less, sass, or from CDN!
+```javascript
+AccountsTemplates.configure({
+    negativeValidation: false,
+    negativeFeedback: false,
+    positiveValidation: false,
+    positiveFeedback: false,
+});
+```
+
+## Bring Your Own Ratchet
+
+Adding this package with `meteor add useraccounts:ratchet` does not add any other packages providing Ratchet. This is to let you choose the flavour you prefer, being it compiled, less, sass, or from CDN!
+
+At the moment it is up to date with Ratchet 2.0.2.
 
 
 ## Contributing
 
 Anyone is welcome to contribute. Fork, make your changes, and then submit a pull request.
 
-Thanks to all those who have contributed code changes to [this package](https://github.com/splendido/accounts-templates-ratchet/graphs/contributors) as well as to the [core package](https://github.com/splendido/accounts-templates-core/graphs/contributors) and all who have helped by submitting bug reports and feature ideas.
-
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/splendido/)
+Thanks to all those who have contributed code changes to [this package](https://github.com/meteor-useraccounts/ratchet/graphs/contributors) as well as to the [core package](https://github.com/meteor-useraccounts/core/graphs/contributors) and all who have helped by submitting bug reports and feature ideas.
