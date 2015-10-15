@@ -1,4 +1,6 @@
+[![Meteor Icon](http://icon.meteor.com/package/useraccounts:ratchet)](https://atmospherejs.com/useraccounts/ratchet)
 [![Build Status](https://travis-ci.org/meteor-useraccounts/ratchet.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/ratchet)
+
 useraccounts:ratchet
 ========================
 
